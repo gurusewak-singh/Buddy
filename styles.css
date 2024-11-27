@@ -3,7 +3,7 @@
 .main{
     height: 720px;
     width: 100%;
-    border: solid black 1px;
+    
     padding: 0;
     margin: 0;
     display: flex;
@@ -19,7 +19,7 @@
 .form{
     height: 600px;
     width: 500px;
-    border: solid black 1px;
+   
     box-shadow: 0px 0px 5px#1e2626;
     border-radius: 16px;
 
@@ -31,9 +31,9 @@
   }
   
 .heading{
-    height: 100px;
+    height: 175px;
     width: 100%;
-    border: solid black 1px;
+    
     margin-top: 50px;
 }
 .log-heading{
@@ -45,8 +45,8 @@ body{
     text-align: center;
 }
 .cred{
-    margin-top: 50px;
-    border: solid white 1px;
+    
+   
     height: 300px;
 }
 .username,.password{
@@ -61,8 +61,10 @@ body{
     box-shadow : 0px 0px 5px rgb(0, 0, 0) ;
     font-size: 16px;
     color: white;
-    
     padding-left: 15px;
+    transition: background-color .3s;
+    
+   
 }
 .username
  
@@ -78,8 +80,15 @@ body{
     border-style: none;
     color: #0f1111;
     font-size : 25px;
+    transition: background-color .3s;
     
     
+    
+}
+.submit:hover{
+    background-color: #1e2626 ;
+    color: white;
+    cursor: pointer;
 }
 input:focus{
     background-color: white;
@@ -92,6 +101,18 @@ label{
     font-size: 20px;
     margin-top: 20px;
 }
-
+.cred-bottom{
+    height: 100px;
+    
+    margin-top:20px ;
+}
+.forgot-pass, .register{
+    color: white;
+    font-size: 16px;
+}
+.msg{
+    color: white;
+    font: size 16px;
+}
 /*Login CSS ends here*/
 
