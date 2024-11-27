@@ -1,3 +1,5 @@
+/* Login CSS starts here*/
+
 .main{
     height: 720px;
     width: 100%;
@@ -87,4 +89,6 @@ label{
     font-size: 20px;
     margin-top: 20px;
 }
+
+/*Login CSS ends here*/
 
