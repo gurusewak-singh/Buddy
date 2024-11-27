@@ -62,7 +62,13 @@ a{
 
 @media (max-width:400px) {
     form{
-        height: 80%;
-        width: 90%; 
+        height: 100%;
+        width: 100%; 
+        border-radius:0px;
+    }
+}
+@media (max-height:900px) {
+    form{
+        height: 100%;
     }
 }
